@@ -23,15 +23,21 @@ Pi extension that tracks `read` tool calls and provides `/audit-files-read`.
 ### Local extension test
 
 ```bash
-pi -e /home/jmw/opt/AI/pi-audit-files-read/index.ts
+pi -e ./pi-audit-files-read/index.ts
 ```
 
-### As a project package
+### Install from GitHub (recommended)
 
-From your project root:
+From project root:
 
 ```bash
-pi install /home/jmw/opt/AI/pi-audit-files-read -l
+pi install github:jwharington/pi-audit-files-read -l
+```
+
+### Local path install (development)
+
+```bash
+pi install ./pi-audit-files-read -l
 ```
 
 ## Usage
